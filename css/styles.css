@@ -1,0 +1,94 @@
+body {
+  font-family: "Varela", sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 991px) {
+  .icon-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .name {
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .featured-projects {
+    text-align: left;
+  }
+}
+
+.logo-image {
+  display: block;
+  padding-top: 30px;
+  padding-left: 10px;
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.name {
+  font-family:"Permanent Marker", sans-serif;
+  color: #003d66;
+  margin-top: 50px;
+  font-weight: 100;
+}
+
+.title {
+  font-family:"Varela", sans-serif;
+  font-weight: lighter;
+  color: #003d66;
+}
+.button-style {
+  font-family:"Varela", sans-serif;
+  color: #003d66;
+}
+.modal-title {
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.cover-image {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.featured-projects {
+  font-family:'Permanent Marker', sans-serif;
+  color: #003d66;
+  padding-bottom: 20px;
+}
+
+.projects-titles {
+  font-family:'Permanent Marker', sans-serif;
+  color: #003d66;
+  text-align: center;
+}
+
+.project-image {
+  max-height: 250px;
+}
+
+.row{
+  text-align: center;
+}
+
+footer {
+	margin-top: 50px;
+	font-size: 0.7em;
+	font-weight: 200;
+	text-align: center;
+}
